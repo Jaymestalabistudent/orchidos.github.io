@@ -1,10 +1,76 @@
-
-/*initial import of pages commit message : import header and nav bar to repo setup pages set
-page margin for base text of all pages left to right*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
 
 
+    margin: 0;
+    padding: 0;
+    border: 0;
+  
+  
 
-  margin: 0;
-  padding: 0;
-  border: 0;
+h2 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;  
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: #faf3ec;
+    color: #5d6f75;
+    padding: 10px 20px; 
+    border-radius: 14px; 
+    display: inline-block; 
+}
+/*header logo and navbar spacing*/
 
+#logo {
+  float:left;
+  font-size:280%;
+}
+
+#logo, #navbar {
+    line-height: 75px;
+  }
+  
+
+/*header navbar styling accesibility*/
+
+#navbar {
+  font-size: 110%;
+  list-style: none;
+  letter-spacing: 4px;
+  float:right;
+}
+
+
+#navbar li {
+  margin-right: 30px;
+  vertical-align: middle; 
+  float: left;
+  list-style: none;
+
+}
+
+
+#navbar a {
+  color: inherit;  
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  border-bottom: 2px solid red; /* Change border color when hovered */
+}
+
+.active {
+  border-bottom: 1px solid #faf3ec; /* Style the active link */
+}
+
+header {
+    background-color: #999; /* Gray background color */
+    padding: 10px; /* Add padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px; 
+    border-bottom: 1px solid #999; /* Add a border to separate the header from the content */
+    margin-bottom: 20px;
+
+}
