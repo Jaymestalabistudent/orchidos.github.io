@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 
 
     margin: 0;
@@ -14,7 +15,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     background: #faf3ec;
-    color: #5d6f75;
+    color: #0c0d0d;
     padding: 10px 20px; 
     border-radius: 14px; 
     display: inline-block; 
@@ -22,9 +23,13 @@ h2 {
 /*header logo and navbar spacing*/
 
 #logo {
-  float:left;
-  font-size:280%;
+  float: left;
+  font-size: 280%;
+  color: #faf3ec;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold; /* Make the font bold */
 }
+
 
 #logo, #navbar {
     line-height: 75px;
@@ -38,6 +43,8 @@ h2 {
   list-style: none;
   letter-spacing: 4px;
   float:right;
+    color: #5d6f75;
+
 }
 
 
@@ -225,4 +232,3 @@ footer {
 .author {
   margin-top: 20px; 
 }
-
