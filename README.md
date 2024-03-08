@@ -1,7 +1,8 @@
 <br/>
 <p align="center">
-  <h3 align="center">OrchidOs Website </h3>
-
+  <h1 align="center">OrchidOs Website </h1>
+[OrchidOS Website](https://jaymestalabistudent.github.io/orchidos.github.io/)
+<h3 align="center">[click me to launch website](https://jaymestalabistudent.github.io/orchidos.github.io/)</h3>
 </p>
 
 ![Downloads](https://img.shields.io/github/downloads/Jaymestalabistudent/orchidos.github.io/total) ![Contributors](https://img.shields.io/github/contributors/Jaymestalabistudent/orchidos.github.io?color=dark-green) ![Forks](https://img.shields.io/github/forks/Jaymestalabistudent/orchidos.github.io?style=social) ![License](https://img.shields.io/github/license/Jaymestalabistudent/orchidos.github.io) 
