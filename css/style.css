@@ -325,5 +325,33 @@ textarea {
 }
 [type="submit"]:hover { background:#CC4949; }
 
+#company-slogan2 {
+    font-family: "Titillium Web", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 150px;
+    padding-top: 10px;
+    background-color: rgba(250, 243, 236, 0.6); /* 90% opacity this ensures no clash when scrolled */
+    bottom: 30px;
+    right: 30px; /* Adjust as needed */
+    position: fixed; /* Position it relative to the viewport */
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    border-radius: 14px;
+    z-index: 1000; /* Ensure it appears on top of other content */
+}
 
 
+#company-slogan2, #company-slogan2 h2 {
+  color: #5d6f75;
+  font-size: 1.5rem; /* Set the font size for better readability */
+  text-align:left; /* Center align the text */
+
+}
+#company-slogan2 h3 {
+  color: #5d6f75;
+  font-size: 1rem; /* Set the font size for better readability */
+  text-align:left; /* Center align the text */
+}
