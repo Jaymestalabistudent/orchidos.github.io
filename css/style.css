@@ -260,3 +260,18 @@ footer {
     display: block;
 }
 
+
+/******************Aboutus body text ******************/
+#aboutus-contact-info h1 {
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 20px;
+    font-size: 280%;
+
+}
+
+#aboutus-contact-info p {
+    text-align: center;
+    font-family: "Titillium Web", sans-serif;
+
+}
