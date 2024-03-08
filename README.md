@@ -9,6 +9,7 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
+* [Repository Contents](#Repository Contents)   
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -66,7 +67,7 @@ Regular Updates and Support: OrchidOS is committed to delivering regular updates
 
 Additionally, comprehensive support and documentation are provided to assist users with installation, configuration, and troubleshooting of OrchidOS on their devices.
 
-Repository Contents:
+## Repository Contents
 
 HTML Files: These files encapsulate the structural blueprint and content architecture of the website pages.
 
