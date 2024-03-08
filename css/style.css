@@ -43,7 +43,7 @@ h2 {
   list-style: none;
   letter-spacing: 4px;
   float:right;
-    color: #5d6f75;
+    color: black;
 
 }
 
@@ -195,7 +195,7 @@ header {
 
 footer {
   background-color: #999; /* Background color for the footer */
-  color: white; /* Text color for the footer */
+  color: black; /* Text color for the footer */
   padding: 20px; /* Add padding to the footer */
   text-align: center; /* Align content to the center horizontally */
   border-radius: 14px; 
@@ -211,6 +211,7 @@ footer {
 .social-links {
   list-style-type: none; /* Remove bullet points from the list */
   padding: 0; /* Remove default padding from the list */
+
 }
 
 .social-links li {
@@ -223,7 +224,7 @@ footer {
 }
 
 .social-links li a {
-  color: white; /* Text color for the links */
+  color: black; /* Text color for the links */
   text-decoration: none; /* Remove underline from the links */
 }
 
