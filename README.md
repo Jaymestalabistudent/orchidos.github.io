@@ -9,7 +9,7 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Repository Contents](#Repository Contents)   
+* [Repository Contents](#Repository-Contents)  
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
