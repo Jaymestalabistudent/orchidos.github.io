@@ -22,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](assets/images/software2.png)
+![Screen Shot](assets/image/software2.png)
 
 The OrchidOS GitHub Pages repository serves as a platform to host and showcase the OrchidOS website. It functions as a comprehensive information hub delineating the essence of OrchidOS, its features, and avenues for community engagement and project involvement.
 
