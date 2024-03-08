@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -54,5 +54,17 @@
             <p class="author">Designed by The-projects</p>
         </div>
     </footer>
+<!-- Custom script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Add an event listener to the form with the id 'contact-form'
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+            // Redirect to the 404.html page
+            window.location.href = '404.html';
+        });
+    });
+</script>    
 </body>
 </html>
