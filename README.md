@@ -1,8 +1,7 @@
 <br/>
 <p align="center">
-  <h1 align="center">OrchidOs Website </h1>
-[OrchidOS Website](https://jaymestalabistudent.github.io/orchidos.github.io/)
-<h3 align="center">[click me to launch website](https://jaymestalabistudent.github.io/orchidos.github.io/)</h3>
+  <h1 align="center">OrchidOs Website</h1>
+<h3 align="center">https://jaymestalabistudent.github.io/orchidos.github.io/</h3>
 </p>
 
 ![Downloads](https://img.shields.io/github/downloads/Jaymestalabistudent/orchidos.github.io/total) ![Contributors](https://img.shields.io/github/contributors/Jaymestalabistudent/orchidos.github.io?color=dark-green) ![Forks](https://img.shields.io/github/forks/Jaymestalabistudent/orchidos.github.io?style=social) ![License](https://img.shields.io/github/license/Jaymestalabistudent/orchidos.github.io) 
@@ -23,7 +22,7 @@
 
 ## About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](assets/images/software2.png)
 
 The OrchidOS GitHub Pages repository serves as a platform to host and showcase the OrchidOS website. It functions as a comprehensive information hub delineating the essence of OrchidOS, its features, and avenues for community engagement and project involvement.
 
