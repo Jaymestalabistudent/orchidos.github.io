@@ -369,5 +369,27 @@ font-size: 280%;
 }
 
 #gallery-title p{
+text-align: center; /* Center the text horizontally */
 font-family: "Titillium Web", sans-serif;
+}
+
+
+/****************** title settings ******************/
+
+.row {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* Three columns per row */
+grid-gap: 20px; /* Adjust the gap between columns */
+}
+
+.column {
+background-color: #ccc;
+padding: 20px;
+text-align: center;
+}
+
+/* Adjust column width for responsiveness */
+@media (max-width: 768px) {
+.row {
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row on smaller screens */
 }
