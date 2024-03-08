@@ -10,17 +10,18 @@
 
 * [About the Project](#about-the-project)
 * [Repository Contents](#Repository-Contents)  
+* [Testing for Accessibility](#Testing-for-Accessibility)  
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
+* [learn with the code](#learn-with-the-code)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
-
+Testing for Accessibility
 ## About The Project
 
 ![Screen Shot](assets/image/software2.png)
@@ -111,7 +112,7 @@ Grid System Integrity: Methodical examination of the website's grid system ensur
 Image Optimization Analysis: Rigorous optimization of images and media assets ensures expedited loading times and pristine display quality on large screens.
 
 
-Testing for Accessibility:
+## Testing for Accessibility
 
 Screen Reader Compatibility Testing: Comprehensive compatibility testing with screen reader software such as Screen Reader for Google Chrome 0.8.0 ensures content accessibility for visually impaired users.
 
