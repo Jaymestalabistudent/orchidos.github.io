@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
 
-
+{
     margin: 0;
     padding: 0;
     border: 0;
-  
+  }
   
 
 h2 {
@@ -73,4 +73,39 @@ header {
     border-bottom: 1px solid #999; /* Add a border to separate the header from the content */
     margin-bottom: 20px;
 
+}
+
+
+/******************Main page background******************/
+#main-page-outer {
+  margin-top: 20px;
+  height: 650px; 
+ width: 100%;
+ position: relative;
+ overflow: hidden;
+ border-radius: 14px;   
+}
+
+/******************Video Styling******************/
+#main-page-video {
+ position: relative;
+ height: 100%; /* Use 100% height to fill the container */
+ width: 100%; /* Use 100% width to fill the container */
+ overflow: hidden;
+ animation-duration: 10s; /* Adjust the duration of the animation */
+ border-radius: 14px;  
+}
+
+/******************Adjusting Video******************/
+#bg-video {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+ z-index: -1;
+ border-radius: 14px;   
 }
