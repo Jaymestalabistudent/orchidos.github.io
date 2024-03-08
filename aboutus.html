@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,15 @@
 
     <section id="aboutus-contact" class="aboutus">
         <div>
-            <form action="404.html" method="POST">      
+            <form action="404.html" method="POST" id="contact-form">
+                <div id="alert-container" aria-label="currently not working alert">
+                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                        Please wait for future updates still under constrcution.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
                 <input name="name" type="text" class="feedback-input" placeholder="Name" aria-label="Your name" />   
                 <input name="email" type="text" class="feedback-input" placeholder="Email" aria-label="Your email" />
                 <textarea name="text" class="feedback-input" placeholder="Comment" aria-label="Your comment"></textarea>
@@ -54,17 +62,24 @@
             <p class="author">Designed by The-projects</p>
         </div>
     </footer>
-<!-- Custom script -->
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // Add an event listener to the form with the id 'contact-form'
-        document.getElementById('contact-form').addEventListener('submit', function (event) {
-            // Prevent the default form submission behavior
-            event.preventDefault();
-            // Redirect to the 404.html page
-            window.location.href = '404.html';
+
+    <!-- Custom script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Add an event listener to the form with the id 'contact-form'
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+                // Redirect to the 404.html page
+                window.location.href = '404.html';
+            });
+
+            // Add an event listener to the close button of the alert
+            document.querySelector('.alert .close').addEventListener('click', function () {
+                // Remove the alert from the DOM
+                document.getElementById('alert-container').innerHTML = '';
+            });
         });
-    });
-</script>    
+    </script>    
 </body>
 </html>
