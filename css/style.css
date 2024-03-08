@@ -49,20 +49,24 @@ h2 {
 
 }
 
-
 #navbar a {
   color: inherit;  
   text-decoration: none;
+
+}
+
+#navbar a {
+    color: inherit;  
+    text-decoration: none;
 }
 
 #navbar a:hover {
-  border-bottom: 2px solid red; /* Change border color when hovered */
+    border-bottom: 2px solid red; /* Change border color when hovered */
 }
 
 .active {
-  border-bottom: 1px solid #faf3ec; /* Style the active link */
+    border-bottom: 1px solid #faf3ec; /* Style the active link */
 }
-
 header {
     background-color: #999; /* Gray background color */
     padding: 10px; /* Add padding for spacing */
@@ -108,4 +112,33 @@ header {
  transform: translate(-50%, -50%);
  z-index: -1;
  border-radius: 14px;   
+}
+#company-slogan, #company-slogan h2 {
+  color: #5d6f75;
+  font-size: 1.5rem; /* Set the font size for better readability */
+  text-align:left; /* Center align the text */
+
+}
+#company-slogan h3 {
+  color: #5d6f75;
+  font-size: 1rem; /* Set the font size for better readability */
+  text-align:left; /* Center align the text */
+}
+#company-slogan {
+  font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 400px;
+  height: 150px;
+  padding-top: 10px;
+  background-color:  #faf3ec;
+  bottom: 30px;
+  right: 150px;
+  position: absolute;
+  resize: both; /* Allow resizing the box */
+  display: flex;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+   border-radius: 14px;  
+
 }
