@@ -365,4 +365,83 @@ textarea {
 
 .gallery-title {
     text-align: center;
+      font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+            font-weight: bold;
+
+
+}
+.gallery-text {
+    text-align: center;
+      font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+}
+
+.card-title {
+        font-family: "Titillium Web", sans-serif;
+text-transform: uppercase;
+}
+
+.card-text {
+          font-family: "Titillium Web", sans-serif;
+            font-weight: bold;
+
+}
+ 
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        #video-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        video {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }       
+.software-title {
+    text-align: center;
+      font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+            font-weight: bold;
+
+
+}
+.software-text {
+    text-align: center;
+      font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase;
+}
+
+.software-sub {
+    text-align: start;
+      font-family: "Titillium Web", sans-serif;
+}
+
+.control-button {
+    background-color: #999;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
