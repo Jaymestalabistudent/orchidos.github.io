@@ -359,43 +359,10 @@ textarea {
 /****************** title settings ******************/
 
 
+.gallery-section {
+    padding: 20px 0;
+}
 
 .gallery-title {
-    text-align: center; /* Center the text horizontally */
-    margin-top: 50px; /* Adjust the margin from the top as per your design */
-  font-family: "Titillium Web", sans-serif;
-  margin-bottom: 20px;
-  font-size: 280%;
-}
-
-.gallery-title p{
-    font-family: "Titillium Web", sans-serif;
-}
-
-
-/* Ensure flexibility and spacing between columns */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
-
-/* Adjust column size and spacing */
-.column {
-    flex: 0 0 calc(50% - 10px); /* Two columns per row with 10px spacing */
-    background-color: #ccc;
-    padding: 20px;
     text-align: center;
-    margin: 10px 0; /* Adjust margin for spacing between rows */    
-    border-radius: 14px; /* Add border radius to all columns */
-
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .column {
-        flex-basis: 100%; /* Each column takes full width on smaller screens */
-    }
 }
