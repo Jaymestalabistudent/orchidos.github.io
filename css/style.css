@@ -114,32 +114,32 @@ header {
  border-radius: 14px;   
 }
 #company-slogan, #company-slogan h2 {
-  color: #5d6f75;
-  font-size: 1.5rem; /* Set the font size for better readability */
-  text-align:left; /* Center align the text */
+    color: #5d6f75;
+    font-size: 1.5rem; /* Set the font size for better readability */
+    text-align:left; /* Center align the text */
 
 }
 #company-slogan h3 {
-  color: #5d6f75;
-  font-size: 1rem; /* Set the font size for better readability */
-  text-align:left; /* Center align the text */
+    color: #5d6f75;
+    font-size: 1rem; /* Set the font size for better readability */
+    text-align:left; /* Center align the text */
 }
 #company-slogan {
-  font-family: "Titillium Web", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 400px;
-  height: 150px;
-  padding-top: 10px;
-  background-color:  #faf3ec;
-  bottom: 30px;
-  right: 150px;
-  position: absolute;
-  resize: both; /* Allow resizing the box */
-  display: flex;
-  justify-content: center; /* Center align horizontally */
-  align-items: center; /* Center align vertically */
-   border-radius: 14px;  
+    font-family: "Titillium Web", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 150px;
+    padding-top: 10px;
+    background-color:  #faf3ec;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+    resize: both; /* Allow resizing the box */
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+     border-radius: 14px;  
 
 }
 
@@ -179,6 +179,9 @@ header {
   padding: 20px; /* Add padding to the panel */
   border-radius: 10px; /* Add rounded corners */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  text-align:left; /* Center align the text */
+  font-family: "Titillium Web", sans-serif;
+
 }
 footer {
   background-color: #999; /* Background color for the footer */
