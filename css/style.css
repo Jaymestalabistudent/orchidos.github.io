@@ -388,7 +388,9 @@ textarea {
     background-color: #ccc;
     padding: 20px;
     text-align: center;
-    margin: 10px 0; /* Adjust margin for spacing between rows */
+    margin: 10px 0; /* Adjust margin for spacing between rows */    
+    border-radius: 14px; /* Add border radius to all columns */
+
 }
 
 /* Media query for smaller screens */
