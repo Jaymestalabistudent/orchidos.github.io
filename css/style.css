@@ -368,16 +368,18 @@ textarea {
   font-size: 280%;
 }
 
-#gallery-title p{
+.gallery-title p{
     font-family: "Titillium Web", sans-serif;
 }
+
 
 /* Ensure flexibility and spacing between columns */
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -5px; /* Margin to compensate for column padding and spacing */
+    margin: 0;
+    padding: 0;
 }
 
 /* Adjust column size and spacing */
